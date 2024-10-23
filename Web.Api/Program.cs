@@ -53,7 +53,7 @@ app.MapPost("orders", async (
     {
         return Results.BadRequest("Some product is missing..");
     }
-    //Elanur.
+
     var order = new Order
     {
         Id = Guid.NewGuid(),
